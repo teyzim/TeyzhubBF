@@ -2890,7 +2890,7 @@ if World2 and World1 then
     })
 
     M:AddButton({
-        Name = "BOOST FPS",
+        Name = "Modo celular bomba",
         Callback = function()
             pcall(function()
                 game:GetService("Lighting").FantasySky:Destroy()
@@ -2945,7 +2945,7 @@ end
         Name = "Other Farm"
     })
 
-    M:AddParagraph("Codigos","Click to Button to Reddem All Code In Blox Fruits.")
+    M:AddParagraph("Codigos","clique para pegar codigos")
 
     local x2Code = {
         "JULYUPDATE_RESET",
@@ -2979,7 +2979,7 @@ end
     
     
     M:AddButton({
-        Name = "Redeem all code",
+        Name = "Pegar codigos",
         Callback = function()
             function RedeemCode(value)
                 game:GetService("ReplicatedStorage").Remotes.Redeem:InvokeServer(value)
@@ -2998,9 +2998,9 @@ end
 M:AddParagraph("Main Farm","Click to Box to Farm, I ready update new mob farm!.")
 
 ToggleFarm = M:AddToggle({
-    Name = "Auto Farm",
+    Name = "Farm automatico",
     Default = false,
-    Flag = "LevelFarm",
+    Flag = "Farma level",
     Save = true,
     Callback = function(Value)
         _G.AutoFarm = Value
@@ -11308,7 +11308,7 @@ spawn(function()
                 Hop()
                 OrionLib:MakeNotification({
                     Name = "Teyzhub Blox fruits",
-                    Content = "Hop Server",
+                    Content = "hey vai se ferrar",
                     Image = "rbxassetid://119980140458596",
                     Time = 5
                 })
